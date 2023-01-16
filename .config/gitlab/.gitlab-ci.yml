@@ -1,0 +1,8 @@
+stages:
+  - check
+
+include:
+  project: 'tt/xqa/xqa_pipelines'
+  file:
+    - 'autotests_check.gitlab-ci.yml'
+    - 'tests.gitlab-ci.yml'
